@@ -9,7 +9,7 @@
 }
 body{
     margin: 0;
-    background-color: blueviolet !important;
+    background-color: rgb(182, 117, 243)!important;
     font-family: Arial, Helvetica, sans-serif;
 }
 .centerLanding{
@@ -40,7 +40,7 @@ body{
     color: rgb(182, 117, 243);
 }
 .hiText{
-    font-size: 22pt;
+    font-size: 25pt;
 }
 .portfolioSection{
     /* width: 100%; */
