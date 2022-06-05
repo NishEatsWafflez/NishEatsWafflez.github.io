@@ -42,10 +42,34 @@ body{
 .hiText{
     font-size: 25pt;
 }
+.softwareProjectv2{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    /* width: 30%; */
+    width: 370px;
+    display: flex;
+    margin: 2.5% auto;
+    border: 2px solid black;
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    -o-object-fit: cover;
+     object-fit: cover;
+     border-radius: 5%;
+  overflow: hidden;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+    /* align-items: flex-end; */
+}
 .portfolioSection{
     /* width: 100%; */
     display: flex;
-    max-width: 1300px;
+    /* height: 50vh; */
+    max-width: 1000px;
     margin: 1.5% auto;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -58,6 +82,39 @@ body{
     animation: fadein 1s both;
 }
 
+#rps .coverDiv{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#rps .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#rps:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(100px);
+  transition:transform .5s ;
+}
+#rps:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
 @-webkit-keyframes fadein{
     0%{
         opacity: 0;
@@ -176,6 +233,109 @@ body{
 .portrait{
     object-fit: cover;
     width: 440px;
+    /* transform: scale(2); */
     height: 460px;
     border: 2px solid white;
+}
+
+#notes .coverDiv{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#notes .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#notes:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(100px);
+  transition:transform .5s ;
+}
+#notes:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+
+#movies .coverDiv{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#movies .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#movies:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(100px);
+  transition:transform .5s ;
+}
+#movies:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+
+#bounce .coverDiv{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#bounce .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#bounce:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(100px);
+  transition:transform .5s ;
+}
+#bounce:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
 }
