@@ -1,0 +1,31 @@
+.workExp{
+    align-items: center;
+}
+
+.job{
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.workplace{
+    font-size: 18pt;
+    color: rgb(129, 44, 207);
+
+}
+
+.worktime{
+    font-size: 14pt;
+    color: rgb(147, 60, 228);
+}
+.jobtitle{
+    font-size: 14pt;
+    /* color: rgb(139, 139, 139); */
+    color: rgb(157, 100, 211);
+
+}
+.jobdesc{
+    font-size: 14pt;
+}
