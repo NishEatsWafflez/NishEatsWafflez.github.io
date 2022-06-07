@@ -6,12 +6,13 @@
     width: 700px;
     margin: auto;
     text-align: left;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     margin-bottom: 15px;
 }
 
+
 .workplace{
-    font-size: 18pt;
+    font-size: 23pt;
     color: rgb(129, 44, 207);
 
 }
@@ -26,6 +27,6 @@
     color: rgb(157, 100, 211);
 
 }
-.jobdesc{
-    font-size: 14pt;
+.jobDesc{
+    font-size: 13pt;
 }

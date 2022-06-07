@@ -1,0 +1,40 @@
+.skills{
+    width: 800px;
+    /* background-color: aliceblue; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.individual{
+    margin: auto 8px;
+    margin-top: 10px;
+}
+.skillLogo{
+    font-size: 80pt;
+    color: black;
+}
+.skillLogos{
+    width: 104.5px;
+vertical-align: 0;
+    /* margin-top: 6px; */
+}
+.skill{
+    align-items: center;
+    text-align: center;
+    
+}
+.skillname{
+    font-size: 14pt;
+    margin-top: 20px;
+    line-height: 25pt;
+    color: rgb(129, 44, 207);
+}
+.skillname2{
+    font-size: 16pt;
+    margin-top: 15px;
+    line-height: 25pt;
+    color: rgb(129, 44, 207);
+
+}
