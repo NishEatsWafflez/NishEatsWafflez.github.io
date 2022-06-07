@@ -62,6 +62,17 @@
     border-radius: 5% 0% 0% 5%;
 
 }
+.gpa{
+    font-size: 14pt;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
 .logopic{
     margin: 12.5px;
+}
+.deltalogo{
+    margin-top: 45px;
+    margin-left: 12.5px;
 }
