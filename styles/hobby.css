@@ -1,0 +1,93 @@
+.hobby{
+    width: 300px;
+    margin: 16px;
+    /* background-color: rgb(255, 255, 255); */
+    height: 300px;
+    /* width: 30%; */
+    display: flex;
+    margin: 2.5% auto;
+    /* border: 2px solid black; */
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    -o-object-fit: cover;
+     object-fit: cover;
+     /* border-radius: 5%; */
+  overflow: hidden;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+.hobbysection{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hobbies{
+    align-items: center;
+}
+.coverHobbies{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    opacity: 0%;
+}
+#juggling:hover .coverHobbies {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+#desmos:hover .coverHobbies {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+#photographing:hover .coverHobbies {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+}
+.hobbyText{
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 300px;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+#photographing:hover .hobbyText{
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(50px);
+  transition:transform .4s ;
+}
+
+#desmos:hover .hobbyText{
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(50px);
+  transition:transform .4s ;
+}
+
+#juggling:hover .hobbyText{
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(50px);
+  transition:transform .4s ;
+}
