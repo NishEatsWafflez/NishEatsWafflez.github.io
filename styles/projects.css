@@ -1,0 +1,282 @@
+.path{
+    width: 200px;
+    /* height: auto; */
+}
+.path-animation {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+    animation: dash .8s linear forwards;
+}
+
+@keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  #projectsPage{
+    padding: 50px;
+}
+.gear{
+    color: white;
+    width: 80px;
+    height: auto;
+    /* flex-basis: 25%; */
+}
+.gradcap{
+    color: white;
+    width: 80px;
+    height: auto;
+}
+.rpsicon{
+    width: 15%;
+    margin-left: 20%
+}
+#projectstitle{
+    /* flex-basis: 50%; */
+    width: 30%
+}
+.heading{
+    margin-top: 105px;
+}
+.schoolicon{
+    width: 15%;
+    margin-left: 20%
+}
+.workingcon{
+    width: 80px;
+}
+.school-animation{
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+    animation: dash .8s linear forwards;
+}
+.workicon{
+    width: 15%;
+    margin-left: 20%
+}
+.work-animation{
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash .8s linear forwards;
+}
+.skillsicon{
+    width: 15%;
+    margin-left: 20%
+}
+#skillsicon{
+    width: 80px
+}
+.skills-animation{
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash .8s linear forwards;
+}
+#fillerProj{
+    /* flex-basis: 25%; */
+    /* width: 80px; */
+}
+.bitbounceicon{
+    color: white;
+    width: 120px;
+}
+.softwareProjectv2{
+    height: 365px;
+    background-color: rgb(255, 255, 255);
+    /* width: 30%; */
+    width: 450px;
+    display: flex;
+    margin: 2.5% auto;
+    border: 2px solid black;
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    -o-object-fit: cover;
+     object-fit: cover;
+     border-radius: 5%;
+  overflow: hidden;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+    /* align-items: flex-end; */
+}
+.portfolioSection{
+    /* width: 100%; */
+    display: flex;
+    /* height: 50vh; */
+    max-width: 1000px;
+    margin: 1.5% auto;
+    margin-top: 0;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* background-color: rgb(0, 0, 46); */
+    
+
+}
+#rps .coverDiv{
+    position: absolute;
+    height: 365px;
+    width: 450px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#rps .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#rps:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(80px);
+  transition:transform .5s ;
+}
+#rps:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+
+#rps:hover .learnButton{
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-130px);
+  transition:transform .4s ;
+}
+#notes .coverDiv{
+    position: absolute;
+    height: 365px;
+    width: 450px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#notes .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#notes:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(80px);
+  transition:transform .5s ;
+}
+#notes:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+#notes:hover .learnButton{
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-130px);
+  transition:transform .4s ;
+}
+#movies .coverDiv{
+    position: absolute;
+    height: 365px;
+    width: 450px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#movies .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#movies:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(80px);
+  transition:transform .5s ;
+}
+#movies:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+#movies:hover .learnButton{
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-130px);
+  transition:transform .4s ;
+}
+#bounce .coverDiv{
+    position: absolute;
+    height: 365px;
+    width: 450px;
+    background-color: white;
+    opacity: 0%;
+}
+
+#bounce .text {
+    position:absolute;
+    bottom:250px;
+    /* left:0px; */
+    width: 100%;
+    font-size: 20pt;
+    opacity: 0%;
+    text-align: center;
+}
+    
+#bounce:hover .text {
+    /* text-decoration: underline; */
+    color: rgb(105, 11, 194);
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(80px);
+  transition:transform .5s ;
+}
+#bounce:hover .coverDiv {
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .5s;
+}
+#bounce:hover .learnButton{
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-130px);
+  transition:transform .4s ;
+}
