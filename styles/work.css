@@ -13,20 +13,23 @@
 
 .workplace{
     font-size: 23pt;
-    color: rgb(129, 44, 207);
+    color: #26A96C;
 
 }
 
 .worktime{
     font-size: 14pt;
-    color: rgb(147, 60, 228);
+    color: #61b48d;
 }
 .jobtitle{
     font-size: 14pt;
     /* color: rgb(139, 139, 139); */
-    color: rgb(157, 100, 211);
+    color: #7dd3ab;
 
 }
 .jobDesc{
     font-size: 13pt;
+}
+#worktitle{
+    width: 30%
 }

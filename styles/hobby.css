@@ -28,6 +28,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .hobbies{
     align-items: center;
 }
@@ -54,6 +55,8 @@
     transition:opacity .4s;
 }
 .hobbyText{
+    transition-duration: .4s;
+
     position:absolute;
     bottom:250px;
     /* left:0px; */
@@ -89,5 +92,55 @@
     transition:opacity .4s;
     transform: translateY(10px);
   -webkit-transform: translateY(50px);
+  transition:transform .4s ;
+}
+.learnButton {
+    transition-duration: .4s;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(105, 11, 194);
+    border-radius: 7px;
+    opacity: 0%;
+    position:absolute;
+    top:350px;
+    /* left:0px; */
+    font-size: 16pt;
+    text-align: center;
+    margin: auto;
+
+}
+.learnMore{
+    display: flex;
+    justify-content: center;
+}
+.learnButton:hover {
+    background-color: rgb(105, 11, 194); /* Green */
+    color: white;
+}
+#photographing:hover .learnButton{
+    /* color: rgb(105, 11, 194); */
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-85px);
+  transition:transform .4s ;
+}
+#desmos:hover .learnButton{
+    /* color: rgb(105, 11, 194); */
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-85px);
+  transition:transform .4s ;
+}
+#juggling:hover .learnButton{
+    /* color: rgb(105, 11, 194); */
+    visibility:visible;
+    opacity: 100%;
+    transition:opacity .4s;
+    transform: translateY(10px);
+  -webkit-transform: translateY(-85px);
   transition:transform .4s ;
 }

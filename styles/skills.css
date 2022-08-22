@@ -13,7 +13,7 @@
 }
 .skillLogo{
     font-size: 80pt;
-    color: black;
+    color: #ffffff;
 }
 .skillLogos{
     width: 104.5px;
@@ -26,14 +26,14 @@ vertical-align: 0;
     
 }
 .skillname{
-    font-size: 14pt;
+    font-size: 16pt;
     margin-top: 20px;
     line-height: 25pt;
-    color: rgb(129, 44, 207);
+    color: #26A96C;
 }
 .skillname2{
-    font-size: 14pt;
+    font-size: 16pt;
     margin-top: 15.5px;
     line-height: 25pt;
-    color: rgb(129, 44, 207);
+    color: #26A96C;
 }
