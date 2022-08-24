@@ -36,22 +36,22 @@
     position: absolute;
     height: 350px;
     width: 350px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     opacity: 0%;
 }
 #juggling:hover .coverHobbies {
     visibility:visible;
-    opacity: 100%;
+    opacity: 85%;
     transition:opacity .5s;
 }
 #desmos:hover .coverHobbies {
     visibility:visible;
-    opacity: 100%;
+    opacity: 85%;
     transition:opacity .5s;
 }
 #photographing:hover .coverHobbies {
     visibility:visible;
-    opacity: 100%;
+    opacity: 85%;
     transition:opacity .4s;
 }
 .hobbyText{
@@ -73,30 +73,30 @@
     color: #26A96C;
     visibility:visible;
     opacity: 100%;
-    transition:opacity .4s;
+    transition:opacity .5s;
     transform: translateY(10px);
   -webkit-transform: translateY(50px);
-  transition:transform .4s ;
+  transition:transform .5s ;
 }
 
 #desmos:hover .hobbyText{
     color: #26A96C;
     visibility:visible;
     opacity: 100%;
-    transition:opacity .4s;
+    transition:opacity .5s;
     transform: translateY(10px);
   -webkit-transform: translateY(50px);
-  transition:transform .4s ;
+  transition:transform .5s ;
 }
 
 #juggling:hover .hobbyText{
     color: #26A96C;
     visibility:visible;
     opacity: 100%;
-    transition:opacity .4s;
+    transition:opacity .5s;
     transform: translateY(10px);
   -webkit-transform: translateY(50px);
-  transition:transform .4s ;
+  transition:transform .5s ;
 }
 .learnButton {
     transition-duration: .4s;
