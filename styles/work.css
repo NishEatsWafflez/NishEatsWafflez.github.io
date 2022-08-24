@@ -19,16 +19,22 @@
 
 .worktime{
     font-size: 14pt;
-    color: #61b48d;
+    color: rgb(143, 143, 143);
+    margin-top: 5px;
+
 }
 .jobtitle{
     font-size: 14pt;
     /* color: rgb(139, 139, 139); */
-    color: #7dd3ab;
+    color: rgb(189, 189, 189);
+    margin-top: 5px;
+
 
 }
 .jobDesc{
-    font-size: 13pt;
+    font-size: 14pt;
+    margin-top: 10px;
+
 }
 #worktitle{
     width: 30%
