@@ -227,3 +227,15 @@ body{
     border: 2px solid white;
 }
 
+
+#footer{
+    background-color: #162024;
+    text-align: center;
+    color: white;
+}
+.contactIcon{
+    height: 45px;
+    color: white;
+    margin: auto 8px;
+    margin-top: 15px;
+}
