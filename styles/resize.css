@@ -1,0 +1,33 @@
+@media screen and (max-width:600px) {
+    .centerLanding{
+        /* width: 100%; */
+        text-align: center;
+        width: 100vw;
+        margin: 0%;
+        margin-top: 15%;
+    }
+    
+    .centerLanding .myName{
+        font-size: 30pt;
+    }
+    .landingText{
+        margin: 0;
+        font-size: 20pt;
+    }
+    .centerPic{
+        justify-content: center;
+        margin: 0;
+    }
+    .portrait{
+        width: 200px;
+        height: 200px;
+    }
+    .landingPage{
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    .hiText{
+        font-size: 18pt;
+    }
+
+} 
