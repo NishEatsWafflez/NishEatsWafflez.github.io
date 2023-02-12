@@ -9,7 +9,7 @@
     }
     
     .centerLanding .myName{
-        font-size: 32pt;
+        font-size: 34pt;
     }
     .landingText{
         margin: 0 auto;
@@ -22,8 +22,8 @@
         margin-top: 10%;
     }
     .portrait{
-        width: 225px;
-        height: 225px;
+        width: 275px;
+        height: 275px;
     }
     .landingPage{
         height: 100vh;
@@ -38,15 +38,15 @@
         margin-right: 15% !important;
     }
     .softwareProjectv2{
-        width: 90%;
-        height: 73%;
+        width: 90vw;
+        height: 73vw !important;
     }
     .coverDiv{
-        width: 100% !important;
-        height: 100%!important;
+        /* width: 100% !important;
+        height: 100%!important; */
     }
     .projects-image{
-        height: 73%;
+        /* height: 73%; */
     }
     .text{
         bottom: 200px !important;
