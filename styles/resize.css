@@ -34,8 +34,9 @@
         font-size: 20pt;
     }
     .rpsicon{
-        margin-left: 5%;
-        margin-right: 15% !important;
+        margin-left: auto;
+        margin-right: 6% !important;
+        width: 22%;
     }
     .softwareProjectv2{
         width: 90vw;
@@ -53,6 +54,18 @@
     }
     .learnButton{
         top: 300px !important;
+    }
+    .horizontalbar{
+        margin: auto;
+        width: 80% !important;
+    }
+    #projectstitle{
+        width: 50% !important;
+        margin-left: 6%;
+        margin-right: auto;
+    }
+    .heading{
+        flex-direction: row-reverse;
     }
 
 } 
