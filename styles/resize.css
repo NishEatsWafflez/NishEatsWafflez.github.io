@@ -49,7 +49,10 @@
         /* height: 73%; */
     }
     .text{
-        bottom: 150px !important;
+        bottom: 250px !important;
+    }
+    .learnButton{
+        top: 300px !important;
     }
 
 } 
