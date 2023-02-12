@@ -33,5 +33,23 @@
     .hiText{
         font-size: 20pt;
     }
+    .rpsicon{
+        margin-left: 5%;
+        margin-right: 15% !important;
+    }
+    .softwareProjectv2{
+        width: 90%;
+        height: 73%;
+    }
+    .coverDiv{
+        width: 100% !important;
+        height: 100%!important;
+    }
+    .projects-image{
+        height: 73%;
+    }
+    .text{
+        bottom: 200px !important;
+    }
 
 } 
