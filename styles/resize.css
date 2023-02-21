@@ -81,7 +81,7 @@
     }
     .heading{
         flex-direction: row-reverse;
-        margin-top: 5%;
+        /* margin-top: 5%; */
     }
     .workicon{
         width: 18%;

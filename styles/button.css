@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barrio|Montserrat:700");
-button {
+.enterButton {
   margin: auto;
   padding: 1rem;
   text-transform: uppercase;
@@ -16,7 +16,7 @@ button {
   right: 0;
   padding-left: 2.5rem;
 }
-button:after, button:before {
+.enterButton:after, .enterButton:before {
   position: absolute;
   font-family: "Barrio", sans-serif;
   font-weight: bold;
@@ -24,30 +24,30 @@ button:after, button:before {
   color: #1e744c;
   transition: 0.3s all ease;
 }
-button:before {
+.enterButton:before {
   content: "_";
   position: absolute;
   left: 1.4rem;
   top: 0.9rem;
 }
-button:after {
+.enterButton:after {
   content: ">";
   position: absolute;
   left: 0.8rem;
   top: 1rem;
 }
-button:hover {
+.enterButton:hover {
   right: -0.1rem;
   cursor: pointer;
 }
-button:hover:before {
+.enterButton:hover:before {
   content: "_";
   position: absolute;
   left: 0.8rem;
   top: 0.7rem;
   transform: translateY(-1px);
 }
-button:hover:after {
+.enterButton:hover:after {
   content: ">";
   position: absolute;
   left: 1.1rem;

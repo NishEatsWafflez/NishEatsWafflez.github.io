@@ -33,10 +33,15 @@
 }
 #projectstitle{
     /* flex-basis: 50%; */
-    width: 30%
+    width: 30%;
+    margin-bottom: 35px;
+}
+#projects{
+    /* height: 45px; */
 }
 .heading{
-    margin-top: 105px;
+    margin-top: 10vh;
+    /* margin-bottom: 5vh; */
 }
 .schoolicon{
     width: 15%;
