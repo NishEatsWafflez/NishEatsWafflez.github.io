@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Barrio|Montserrat:700");
+button {
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #33c581;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  transition: 0.3s all ease;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-left: 2.5rem;
+}
+button:after, button:before {
+  position: absolute;
+  font-family: "Barrio", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #1e744c;
+  transition: 0.3s all ease;
+}
+button:before {
+  content: "_";
+  position: absolute;
+  left: 1.4rem;
+  top: 0.9rem;
+}
+button:after {
+  content: ">";
+  position: absolute;
+  left: 0.8rem;
+  top: 1rem;
+}
+button:hover {
+  right: -0.1rem;
+  cursor: pointer;
+}
+button:hover:before {
+  content: "_";
+  position: absolute;
+  left: 0.8rem;
+  top: 0.7rem;
+  transform: translateY(-1px);
+}
+button:hover:after {
+  content: ">";
+  position: absolute;
+  left: 1.1rem;
+  top: 1rem;
+}/*# sourceMappingURL=button.css.map */
