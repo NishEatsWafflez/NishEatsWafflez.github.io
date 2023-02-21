@@ -64,8 +64,62 @@
         margin-left: 6%;
         margin-right: auto;
     }
+    #educationtitle{
+        width: 50% !important;
+        margin-left: 6%;
+        margin-right: auto;
+    }
+    #worktitle{
+        width: 40% !important;
+        margin-left: 6%;
+        margin-right: auto;
+    }
     .heading{
         flex-direction: row-reverse;
+        margin-top: 5%;
+    }
+    .workicon{
+        width: 18%;
+        margin-left: 0;
+        margin-right: 2%;
+    }
+    .workingcon{
+        width: 100%;
+    }
+    .schoolicon{
+        width: 20%;
+    }
+    .school{
+        width: 98vw;
+    }
+    .graduationyear{
+        font-size: 12pt;
+    }
+    .degreename{
+        font-size: 12pt;
+    }
+    .schooldescription{
+        font-size: 12pt;
+    }
+    .schoolname{
+        font-size: 19pt;
+    }
+    .job{
+        width: 98vw;
+        margin-left: 1vw;
+        padding-left: 10px;
+    }
+    .workplace{
+        font-size: 19pt;
+    }
+    .worktime{
+        font-size: 12pt;
+    }
+    .jobtitle{
+        font-size: 12pt;
+    }
+    .jobDesc{
+        font-size: 12pt;
     }
 
 } 

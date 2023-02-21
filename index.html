@@ -421,6 +421,11 @@
     </footer>
 
 <script>
+    const options = {
+ root: null,
+ threshold: 0,
+ rootMargin: "0px"
+};
 const observer = new IntersectionObserver(entries => {
   // Loop over the entries
   entries.forEach(entry => {
@@ -428,13 +433,13 @@ const observer = new IntersectionObserver(entries => {
     if (entry.isIntersecting) {
       // Add the animation class
       entry.target.classList.add('path-animation');
-      return;
     //   alert("cheese");
+      return;
 
     }
 
   });
-});
+}, options);
 
 observer.observe(document.querySelector('.rpsicon'));
 
