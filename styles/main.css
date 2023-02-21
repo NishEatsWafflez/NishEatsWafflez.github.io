@@ -243,3 +243,13 @@ body{
     margin: auto 8px;
     margin-top: 15px;
 }
+.fa-brands{
+    color: white;
+    font-size: 32pt;
+    margin: 1% 10px;
+}
+.fa-regular{
+    color: white;
+    font-size: 32pt;
+    margin: 1% 10px;
+}
