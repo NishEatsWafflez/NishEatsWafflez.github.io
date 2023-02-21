@@ -65,6 +65,10 @@ body{
 .hiText{
     font-size: 25pt;
 }
+.navbar-dark .navbar-toggler {
+    border-color: transparent !important;
+}
+
 
 .fade-in {
     -webkit-animation: fadein 1s both;
