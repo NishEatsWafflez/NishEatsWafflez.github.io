@@ -1,0 +1,209 @@
+
+body{
+    background-color: rgb(255, 255, 255) !important;
+    font-family: 'Raleway', sans-serif !important;
+
+}
+.logo{
+    width: 140px;
+    height: auto;
+    margin: auto 0;
+    /* object-fit: ; */
+}
+hr{
+    width: 87%;
+    font-size: large;
+    color: black;
+    border-top: solid 1px black !important;
+    margin-top: 0 !important;
+}
+.workTime{
+    color: #646464;
+    font-size: 13pt;
+}
+.companyName{
+    font-size: 16pt;
+    color: #000bdf;
+    font-weight: 600;
+}
+.workExperience{
+    display: flex;
+}
+.workDetails{
+    /* padding: auto; */
+    /* margin-top: 1%; */
+    margin-left: 2.5%;
+    /* margin: auto 0; */
+
+}
+.workDescription{
+    margin-left: -12px;
+    font-size: 11pt;
+
+}
+.work{
+    width: 80%;
+    margin: auto;
+}
+
+.school{
+    display: flex;
+    margin: 1.5% auto;
+    width: 80%;
+}
+.schoolName{
+    font-size: 16pt;
+    color: #000bdf;
+    font-weight:600;
+    /* text-decoration: underline; */
+}
+.degrees{
+    font-size: 13pt;
+}
+.schoolDetails{
+    /* margin: auto; */
+    margin-left: 2.5%;
+}
+.schoolYears{
+    font-size: 12pt;
+    /* font-style: italic; */
+
+}
+.project{
+    display: flex;
+    margin: 1.5% auto;
+    width: 80%;
+}
+.projectDetails{
+    margin-left: 2.5%;
+}
+.projectName{
+    font-size: 16pt;
+    a{
+        color: #000bdf !important;
+    }
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+.projectDescription{
+    font-size: 13pt;
+}
+.projectTech{
+    font-size: 12pt;
+    font-style: italic;
+}
+.namePic{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 2%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    /* min-width: 10%; */
+    width: auto;
+    max-width: 80%;
+    /* width: 100%; */
+}
+.portrait{
+    width: 200px !important;
+    /* height: 40%; */
+    /* height: 200px; */
+    /* object-fit: cover !important;    object-fit: cover; */
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    /* overflow: hidden; */
+    margin-right: 15px;
+    /* display: block; */
+}
+.heading{
+    width: 85%;
+    margin: auto;
+    font-size: 20pt;
+    margin-bottom: -5px;
+    font-weight: 900;
+    color: rgb(0, 0, 99)
+}
+.MainName{
+    font-size: 22pt;
+    color: #000bdf;
+    font-weight: 900;
+    /* text-decoration: underline; */
+}
+.shorterDescription{
+    font-size: 14pt;
+}
+@media screen and (max-width: 1000px) {
+    .namePic{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .workExperience{
+        flex-direction: column;
+        align-items: center;
+    }
+    .companyName{
+        font-size: 14pt;
+        margin-top: 10px;
+
+    }
+    .workTime{
+        font-size: 11pt;
+    }
+    .workDescription{
+        font-size: 10pt;
+    }
+    .school{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .schoolName{
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    .schoolYears{
+        font-size: 10pt;
+    }
+    .degrees{
+        font-size: 11pt;
+    }
+    .schoolDetails{
+        width: 100%;
+    }
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectName{
+        margin-top: 10px;
+
+        font-size: 14pt;
+    }
+    .projectDescription{
+        font-size: 11pt;
+    }
+    .projectTech{
+        font-size: 10pt;
+    }
+}
+@media screen and (max-width: 600px) {
+    .name{
+        max-width: 95%;
+    }
+    .shorterDescription{
+        font-size: 10pt;
+    }
+    .portrait{
+        width: 150px !important;
+        height: 150px;
+    }
+}
