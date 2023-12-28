@@ -194,6 +194,7 @@ hr{
     .projectTech{
         font-size: 10pt;
     }
+
 }
 @media screen and (max-width: 600px) {
     .name{
@@ -206,4 +207,31 @@ hr{
         width: 150px !important;
         height: 150px;
     }
+}
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+#footer{
+    background-color: #f4f4f4;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+.contactIcon{
+    height: 40px;
+    color: black;
+    margin: auto 8px;
+    margin-top: 15px;
+}
+.fa-brands{
+    color: black;
+    font-size: 20pt;
+    margin: 1% 10px;
+}
+.fa-regular{
+    color: black;
+    font-size: 20pt;
+    margin: 1% 10px;
 }
