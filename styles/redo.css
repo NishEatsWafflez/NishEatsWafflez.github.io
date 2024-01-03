@@ -230,8 +230,13 @@ hr{
     font-size: 20pt;
     margin: 1% 10px;
 }
-.fa-regular{
+.email{
     color: black;
     font-size: 20pt;
+    margin: 1% 10px;
+}
+.documentIcon{
+    color: black;
+    font-size: 19pt;
     margin: 1% 10px;
 }

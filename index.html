@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/education.css">
-    <link rel="stylesheet" href="styles/work.css">
+    <link rel="stylesheet" href="styles/redo.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <!-- <link rel="stylesheet" href="styles/work.css">
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/hobby.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/resize.css">
-    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/button.css"> -->
 
 
 
@@ -22,367 +22,155 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ec272fbb76.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="landingPage" id = "content">
-        <div class="centerPic">
-            <div class="hexss">
-                <div class="hex-background">
-                    <img class = "portrait" src="images/portrait-min.jpg">
+    <div class="namePic">
+        <img class = "portrait" src="images/pfp.JPEG">
+        <div class="name">
+            <div class="MainName">Hi! I'm Anish Ahuja</div>
+            <div class="shorterDescription">I'm currently pursuing a B.S. in Computer Science and a B.A. in Mathematics at the University of California, Davis. I have a particular interest in Software Engineering, Product Development, Graph Theory, and Topology. I am currently seeking SWE internship opportunities for the summer. Feel free to reach out to me at anahuja@ucdavis.edu </div>
+        </div>
+    </div>
+    <div class="heading">Work</div>
+    <hr>
+    <div class="work">
+        <div class="workExperience">
+            <div class="logo">
+                <img class="logo" src="images/ca-dmv.png" alt="California DMV Logo">
+            </div>
+            <div class="workDetails">
+                <div class="companyName">Software Engineering Intern - California Department of Motor Vehicles</div>
+                <div class="workTime">June 2023 - Present</div>
+                <div class="workDescription">
+                    <ul class="workDescription">
+                        <li>Develop components for appointment scheduling and service advisor systems, serving over 100,000 drivers</li>
+                        <li>Perform user accessibility and integration testing on different applications, accelerating development time by 30%</li>
+                        <li>Created Java programs to parse JSON and XML dependency files, extracting full tree of request and response dependencies and classpaths, reducing deployment time by 80% for management</li>
+                        <li>Implemented Selenium automation scripts in order to optimize testing of 12 applications during organization's transfer to Amazon Web Services servers, reducing overall testing time during transition by 60%</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="centerLanding">
-            <div class="landingText">
-                <div class="hiText">
-                Hi, my name is
+        <div class="workExperience">
+            <div class="logo">
+                <img class="logo" src="images/TFG.png" alt="TechForGood Inc. Logo">
             </div>
-                <div class="myName">
-                    <u>
-                Anish Ahuja
-            </u> 
+            <div class="workDetails">
+                <div class="companyName">Software Engineering Intern - TechForGood Inc.</div>
+                <div class="workTime">May 2023 - August 2023</div>
+                <div class="workDescription">
+                    <ul class="workDescription">
+                        <li>Designed and created stable backend infrastructure for administrator dashboard used by Malawi Department of Education as a
+part of the Mission Uplink project with a goal of providing Malawian students with Internet access</li>
+                        <li>Utilized Java, Spring Boot, and PostgreSQL to create 35 robust and scalable routes for user registration, device authentication,
+and information updates, ensuring seamless data management for administrators and educators</li>
+                    </ul>
                 </div>
-                I'm currently studying <span style="    color: #33c581;"> Computer Science</span>
-                 and <span style="    color: #33c581;">Mathematics</span> at UC Davis.
             </div>
-            <a href="#projects"><button class = "enterButton">Check out my work!</button></a>
         </div>
-        
-    </div>
-    <header class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <!-- <a class="navbar-brand" href="#">Home</a> -->
-        <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#projects">Projects</a>
-            <a class="nav-item nav-link" href="#education">Education</a>
-            <a class="nav-item nav-link" href="#work">Work</a>
-            <a class="nav-item nav-link" href="#skills">Skills</a>
-            <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
-            <a class="nav-item nav-link" href="https://drive.google.com/file/d/1PqbGnINzy-ebnQ8zOFN9HxL6YX_ZxPHn/view?usp=sharing">Resume</a>
-
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div id = "projects"></div>
-       
-    <div class = "heading">
-        <div class="rpsicon">
-            <svg class = "gear" width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
-                <title>gear</title>
-                <desc>Created with Sketch.</desc>
-                <g id="icons" stroke="#ffffff" stroke-width=".5" fill="none" fill-rule="evenodd">
-                    <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-991.000000, -281.000000)" fill="none" fill-rule="nonzero">
-                        <g id="square-filled" transform="translate(50.000000, 120.000000)">
-                            <path class = "path" d="M962.5,161 C964.156854,161 965.5,162.343146 965.5,163.999937 L965.500061,164.970698 C965.919867,165.124369 966.332687,165.295574 966.737551,165.483787 L967.424621,164.797204 C968.596194,163.625631 970.495689,163.625631 971.667262,164.797204 L975.202796,168.332738 C976.374369,169.504311 976.374369,171.403806 975.203046,172.575128 L974.516213,173.262449 C974.704511,173.667497 974.875786,174.080508 975.029511,174.50051 L976,174.5 C977.656854,174.5 979,175.843146 979,177.5 L979,182.5 C979,184.156854 977.656854,185.5 976.000063,185.5 L975.029302,185.500061 C974.875631,185.919867 974.704425,186.332687 974.516213,186.737551 L975.202796,187.424621 C976.374369,188.596194 976.374369,190.495689 975.202796,191.667262 L971.667262,195.202796 C970.495689,196.374369 968.596194,196.374369 967.424872,195.203046 L966.737551,194.516213 C966.332687,194.704426 965.919867,194.875631 965.500061,195.029302 L965.5,196 C965.5,197.656854 964.156854,199 962.5,199 L957.5,199 C955.843146,199 954.5,197.656854 954.5,195.999474 L954.50051,195.029511 C954.080507,194.875786 953.667497,194.704511 953.262449,194.516213 L952.575379,195.202796 C951.403806,196.374369 949.504311,196.374369 948.332738,195.202796 L944.797204,191.667262 C943.625631,190.495689 943.625631,188.596194 944.796954,187.424872 L945.483787,186.737551 C945.295574,186.332687 945.124369,185.919867 944.970698,185.500061 L944,185.5 C942.343146,185.5 941,184.156854 941,182.5 L941,177.5 C941,175.843146 942.343146,174.5 944.000526,174.5 L944.970489,174.50051 C945.124214,174.080507 945.295489,173.667497 945.483787,173.262449 L944.797204,172.575379 C943.625631,171.403806 943.625631,169.504311 944.797204,168.332738 L948.332738,164.797204 C949.504311,163.625631 951.403806,163.625631 952.575128,164.796954 L953.262449,165.483787 C953.532481,165.358255 953.806052,165.240289 954.082874,165.130045 L954.50051,164.970489 L954.5,164 C954.5,162.343146 955.843146,161 957.5,161 L962.5,161 Z M962.5,163 L957.5,163 C956.947715,163 956.5,163.447715 956.5,163.999474 L956.501273,166.420434 L955.800477,166.640493 C955.01462,166.887262 954.253653,167.203065 953.525375,167.583668 L952.874685,167.923722 L951.161165,166.211418 C950.770641,165.820893 950.137476,165.820893 949.746952,166.211418 L946.211418,169.746952 C945.820893,170.137476 945.820893,170.770641 946.211668,171.161416 L947.923722,172.874685 L947.583668,173.525375 C947.203065,174.253653 946.887262,175.01462 946.640493,175.800477 L946.420434,176.501273 L944,176.5 C943.447715,176.5 943,176.947715 943,177.5 L943,182.5 C943,183.052285 943.447715,183.5 944.000063,183.5 L946.420827,183.500152 L946.640784,184.200449 C946.887511,184.985979 947.203215,185.746633 947.583668,186.474625 L947.923722,187.125315 L946.211418,188.838835 C945.820893,189.229359 945.820893,189.862524 946.211418,190.253048 L949.746952,193.788582 C950.137476,194.179107 950.770641,194.179107 951.161416,193.788332 L952.874685,192.076278 L953.525375,192.416332 C954.253653,192.796935 955.01462,193.112738 955.800477,193.359507 L956.501273,193.579566 L956.5,196 C956.5,196.552285 956.947715,197 957.5,197 L962.5,197 C963.052285,197 963.5,196.552285 963.5,195.999937 L963.500152,193.579173 L964.200449,193.359216 C964.985979,193.112489 965.746633,192.796785 966.474625,192.416332 L967.125315,192.076278 L968.838835,193.788582 C969.229359,194.179107 969.862524,194.179107 970.253048,193.788582 L973.788582,190.253048 C974.179107,189.862524 974.179107,189.229359 973.788332,188.838584 L972.076278,187.125315 L972.416332,186.474625 C972.796785,185.746633 973.112489,184.985979 973.359216,184.200449 L973.579173,183.500152 L976,183.5 C976.552285,183.5 977,183.052285 977,182.5 L977,177.5 C977,176.947715 976.552285,176.5 976.000526,176.5 L973.579566,176.501273 L973.359507,175.800477 C973.112738,175.01462 972.796935,174.253653 972.416332,173.525375 L972.076278,172.874685 L973.788582,171.161165 C974.179107,170.770641 974.179107,170.137476 973.788582,169.746952 L970.253048,166.211418 C969.862524,165.820893 969.229359,165.820893 968.838584,166.211668 L967.125315,167.923722 L966.474625,167.583668 C965.746633,167.203215 964.985979,166.887511 964.200449,166.640784 L963.500152,166.420827 L963.5,164 C963.5,163.447715 963.052285,163 962.5,163 Z M960,173 C963.865993,173 967,176.134007 967,180 C967,183.865993 963.865993,187 960,187 C956.134007,187 953,183.865993 953,180 C953,176.134007 956.134007,173 960,173 Z M960,175 C957.238576,175 955,177.238576 955,180 C955,182.761424 957.238576,185 960,185 C962.761424,185 965,182.761424 965,180 C965,177.238576 962.761424,175 960,175 Z" id="gear"></path>
-                        </g>
-                    </g>
-                </g>
-            </svg>        </div>
-        <div id = "projectstitle">
-            Projects
-            <div class="horizontalbar"></div>
-
+        <div class="workExperience">
+            <div class="logo">
+                <img class="logo" src="images/aggieworks.jpeg" alt="AggieWorks Logo">
+            </div>
+            <div class="workDetails">
+                <div class="companyName">Technical Product Manager - AggieWorks</div>
+                <div class="workTime">March 2023 - Present</div>
+                <div class="workDescription">
+                    <ul class="workDescription">
+                        <li>Lead team of 15 software developers, designers, and product managers to design, develop, and launch, and market a
+                            student-to-student digital marketplace web application, currently in beta launch phase </li>
+                        <li>Used MySQL, ReactJS, and Next.js to create dynamic web application for 35,000 UC Davis students to buy and sell goods safely and securely</li>
+                        <li>Implemented semantic-based search for marketplace listings utilizing GPT embeddings, storing 1536-dimension vectors in a
+                            highly-scalable PostgreSQL database used to find similar products as well as search results, increasing user retention by 45%</li>
+                        <li>Integrated lossless compression image hosting to ensure seamless user experience across listings, reducing load times by 35%</li>
+                        <li>Implemented Amplitude analytics to reach 7 KPIs necessary for optimal user experience researc</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="portfolioSection">
-        
-        <!-- <div class="rpsicons">
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Game Controller</title><path class = "path" d="M467.51 248.83c-18.4-83.18-45.69-136.24-89.43-149.17A91.5 91.5 0 00352 96c-26.89 0-48.11 16-96 16s-69.15-16-96-16a99.09 99.09 0 00-27.2 3.66C89 112.59 61.94 165.7 43.33 248.83c-19 84.91-15.56 152 21.58 164.88 26 9 49.25-9.61 71.27-37 25-31.2 55.79-40.8 119.82-40.8s93.62 9.6 118.66 40.8c22 27.41 46.11 45.79 71.42 37.16 41.02-14.01 40.44-79.13 21.43-165.04z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="12"/><circle cx="292" cy="224" r="20" fill = "white" class = "path"/><path class = "path" fill = "white" d="M336 288a20 20 0 1120-19.95A20 20 0 01336 288z"/><circle cx="336" cy="180" r="20" fill = "white" class = "path"/><circle cx="380" cy="224" r="20"fill = "white" class = "path"/><path class = "path" fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M160 176v96M208 224h-96"/></svg>
-        </div> -->
-        <div class="softwareProjectv2 fade-in" id = "rps">
-            <img src="images/rps.png" alt="" class = "projects-image" width="100%" height = "365px">
-            <div class="coverDiv"></div>
-            <div class="text">RPS Cam Game</div>
-            <div class="learnMore">
-		    <button class = "learnButton" onclick="window.location.href='https://www.github.com/mchspc/rps-camera-game';">Learn More</button>
-
+    <div class="heading">Education</div>
+    <hr>
+    <div class="education">
+        <div class="school">
+            <div class="logo">
+                <img class="logo" src="images/ucdavis.png" alt="AggieWorks Logo">
             </div>
-            <!-- <div class="projectTitle">
-                RPS Camera Game
-            </div>
-            <div class="projectDescription">
-                A rock-paper-scissors game made using a Teachable Machine to recognize hand symbols
-            </div>
-            <div class="projectLang">
-                Python      JavaScript
-            </div> -->
-        </div>
-        <div class="softwareProjectv2 fade-in" id = "notes">
-            <img src="images/noteable.png" class = "projects-image" alt="" width="100%" height = "365px">
-            <div class="coverDiv"></div>
-            <div class="text">NoteAble</div>
-            <div class="learnMore">
-        		<button class = "learnButton" onclick="window.location.href='https://www.github.com/NishEatsWafflez/NotesApp';">Learn More</button>     
-
-            </div>
-            <!-- <div class="projectTitle">
-                NoteAble
-            </div>
-            <div class="projectDescription">
-                A notes website using a MongoDB backend and login system with color-coded notes
-            </div>
-            <div class="projectLang">
-                Python      JavaScript
-            </div> -->
-        </div>
-        
-        <div class="softwareProjectv2 fade-in" id = "movies">
-            <img src="images/movielogger.png" class = "projects-image" alt="" width="100%" height = "365px">
-            <div class="coverDiv"></div>
-            <div class="text">Movie Logger</div>
-            <div class="learnMore">
-                        <button class = "learnButton" onclick="window.location.href='https://movielogger.abhikahuja.com';">Learn More</button>     
-
-            </div>
-
-            <!-- <div class="projectTitle">
-                MovieLogger
-            </div>
-            <div class="projectDescription">
-                A movie-tracking and reviewing website using a MongoDB backend and IMDb to source movie posters
-            </div>
-            <div class="projectLang">
-                Python      JavaScript
-            </div> -->
-        </div>
-        
-        <div class="softwareProjectv2 fade-in" id = "bounce">
-            <img src="images/8bit-bounce.png" class = "projects-image" alt="" width="100%" height = "365px">
-            <div class="coverDiv"></div>
-            <div class="text">8-Bit Bounce</div>
-            <div class="learnMore">
-                        <button class = "learnButton" onclick="window.location.href='https://www.github.com/NishEatsWafflez/8bit-bounce';">Learn More</button>     
-
+            <div class="schoolDetails">
+                <div class="schoolName">University of California, Davis</div>
+                <div class="degrees">B.S. Computer Science, B.A. Mathematics | GPA: 4.0/4.0</div>
+                <div class="schoolYears">September 2022 - June 2025</div>
             </div>
         </div>
-        
-    </div>
-
-    <div id = "education"></div>
-    <div class="heading">
-        <div class="schoolicon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="gradcap ionicon" viewBox="0 0 512 512"><title>School</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M32 192L256 64l224 128-224 128L32 192z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M112 240v128l144 80 144-80V240M480 368V192M256 320v128"/></svg>
-       </div>    
-        <div id = "educationtitle">Education
-            <div class="horizontalbar"></div>
+        <div class="school">
+            <div class="logo">
+                <img class="logo" src="images/sjdc.png" alt="SJDC Logo">
+            </div>
+            <div class="schoolDetails">
+                <div class="schoolName">San Joaquin Delta College</div>
+                <div class="degrees">A.S. Mathematics | GPA: 4.0/4.0</div>
+                <div class="schoolYears">August 2018 - May 2022</div>
+            </div>
         </div>
     </div>
-    <div class="education" id = "education">
-        <div class="school fade-in">
-            <!-- <div class="schoollogo">
-                <img src="images/davislogo.png" class = "logopic" width = "230px" alt="UC Davis logo">
-            </div> -->
-            <div class="schoolinfo">
-                <div class="schoolname">University of California, Davis</div>             
-
-                <div class="graduationyear">Fall 2022 - Present</div>
-                <div class="degreename">Double Major - Computer Science and Mathematics</div>
-
-                <div class="schooldescription">I currently attend UC Davis to major in Computer Science and Mathematics. I expect to graduate in the fall of 2025.</div>
-
+    <div class="heading">Projects</div>
+    <hr>
+    <div class="projects">
+        <div class="project">
+            <div class="logo">
+                <img class="logo" src="images/aggieexchange.png" alt="AggieExchange Logo">
             </div>
-
-        </div>
-        <div class="school fade-in">
-            <!-- <div class="schoollogo">
-                <img src="images/delta.png" class = "deltalogo" width = "260px" alt="Delta College Logo">
-            </div> -->
-            <div class="schoolinfo">
-                <div class="schoolname">San Joaquin Delta College</div>
-                <div class="graduationyear">August 2018-May 2022</div>
-                <div class="degreename">Associate's Degree in Mathematics | GPA: 4.0</div>
-                <!-- <div class="gpa">GPA: 4.0</div> -->
-                <div class="schooldescription">I attended San Joaquin Delta College as a part of a dual-enrollment program in high school and graduated with three associate's degrees.</div>
-
+            <div class="projectDetails">
+                <div class="projectName"><a href="https://www.aggieexchange.com">AggieExchange</a></div>
+                <div class="projectDescription">UC Davis' first student-centric marketplace. Led a team of developers, designers, and marketers in the creation and beta launch to 30,000 UC Davis students</div>
+                <div class="projectTech">NextJS, ReactJS, MySQL, GPT-4</div>
             </div>
-            <!-- <div class="schoollogo">
-                <img src="images/delta.png" class = "deltalogo" width = "260px" alt="Delta College Logo">
-            </div>  -->
-
         </div>
-    </div>
-    <div id = "work"></div>
-    <div class="heading" id = "work" >
-        <div class="workicon">
-            <svg class = "workingcon" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Briefcase</title><rect x="32" y="128" width="448" height="320" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="12"/><path d="M144 128V96a32 32 0 0132-32h160a32 32 0 0132 32v32M480 240H32M320 240v24a8 8 0 01-8 8H200a8 8 0 01-8-8v-24" fill="none"  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class = "workicon2" stroke-width="12"/></svg>
+        <div class="project">
+            <div class="logo">
+                <img class="logo" src="images/nish-place.png" alt="Nish/Place Logo">
+            </div>
+            <div class="projectDetails">
+                <div class="projectName"><a href="https://github.com/NishEatsWafflez/nish-place">Nish/Place</a></div>
+                <div class="projectDescription">A pixel art application, reminiscent of r/place, using WebSockets for real-time collaboration</div>
+                <div class="projectTech">Node.js, Express.js, ReactJS, MongoDB, Socket.io</div> 
+            </div>
         </div>
-        <div id = "worktitle">
-            Work
-            <div class="horizontalbar"></div>
+        <div class="project">
+            <div class="logo">
+                <img class="logo" src="images/pillpusher.jpg" alt="Pill Pusher Logo">
+            </div>
+            <div class="projectDetails">
+                <div class="projectName"><a href="https://devpost.com/software/pushin-p-ills">Pill Pusher</a></div>
+                <div class="projectDescription">An automated pill dispenser, used to remind the elderly of when to take medications, as well as automatically dispense the correct amount to them. Won Best Healthcare Hack at HackDavis 2023</div>
+                <div class="projectTech">Raspberry Pi, Flask, Twilio</div> 
+            </div>
         </div>
-        
-
-    </div>
-    <div class="workExp">
-        <div class="job fade-in">
-            <div class="workplace">California Department of Motor Vehicles</div>
-            <div class="worktime">March 2023 - Present</div>
-            <div class="jobtitle">Software Engineering Intern</div>
-            <div class="jobDesc">Developed appointment scheduling and service advisor components, conducted user accessibility testing, and created Java programs for efficient data extraction and project deployment.</div>
-        </div>
-        <div class="job fade-in">
-            <div class="workplace">AggieWorks</div>
-            <div class="worktime">March 2023 - Present</div>
-            <div class="jobtitle">Technical Product Manager</div>
-            <div class="jobDesc">Collaborated on a student-to-student digital marketplace for UC Davis using MySQL, ReactJS, and Next.js, featuring semantic search, efficient image hosting, and extensive front-end and back-end work. Integrated Amplitude analytics for data-driven improvements.</div>
-        </div>
-        <div class="job fade-in">
-            <div class="workplace">Tech For Good Inc.</div>
-            <div class="worktime">May 2023 - Aug 2023</div>
-            <div class="jobtitle">Software Engineer Intern</div>
-            <div class="jobDesc">Built a robust backend for the Malawi Department of Education's administrator dashboard, using Java, Spring Boot, and PostgreSQL to enable user registration, device authentication, and information updates, supporting the Mission Uplink project to provide Internet access to Malawian students.</div>
-        </div>
-        <!-- <div class="job fade-in">
-            <div class="workplace">Lodi Kumon Center</div>
-            <div class="worktime">May 2022 - Sept 2022</div>
-            <div class="jobtitle">Tutor</div>
-            <div class="jobDesc">Taught students math and language arts, ranging from Calculus to analyzing advanced works of literature</div>
-        </div>
-
-        <div class="job fade-in">
-            <div class="workplace">Lodi Unified School District</div>
-            <div class="worktime">October 2021 - May 2022</div>
-            <div class="jobtitle">AVID Tutor</div>
-            <div class="jobDesc">Led small student groups of high schoolers in learning sessions, typically focusing on college-level mathematics</div>
-        </div> -->
-    </div>
-
-    <div id = "skills"></div>
-    <div class="heading">
-        <div class="skillsicon">
-            <svg class = "path" id = "skillsicon" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Bulb</title><path d="M304 384v-24c0-29 31.54-56.43 52-76 28.84-27.57 44-64.61 44-108 0-80-63.73-144-144-144a143.6 143.6 0 00-144 144c0 41.84 15.81 81.39 44 108 20.35 19.21 52 46.7 52 76v24M224 480h64M208 432h96M256 384V256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M294 240s-21.51 16-38 16-38-16-38-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/></svg>
-        </div>
-        <div  id = "worktitle">
-            Skills
-            <div class="horizontalbar"></div>
+        <div class="project">
+            <div class="logo">
+                <img class="logo" src="images/rockpaperscissors.png" alt="RPS Logo">
+            </div>
+            <div class="projectDetails">
+                <div class="projectName"><a href="https://github.com/mchspc/rps-camera-game">RPS Camera Game</a></div>
+                <div class="projectDescription">A rock-paper-scissors game that uses object detection to detect the hand gesture of the user.</div>
+                <div class="projectTech">Electron, opencv, TeachableMachine</div> 
+            </div>
         </div>
     </div>
-    <div class="skill fade-in">
-        <div class="skills">
-            <div class="individual">
-                <i class="devicon-python-plain skillLogo"></i>
-                <div class="skillname">Python</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-java-plain skillLogo"></i>
-                <div class="skillname">Java</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-html5-plain skillLogo"></i>
-                <div class="skillname">HTML</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-css3-plain skillLogo"></i>
-                <div class="skillname">CSS</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-javascript-plain skillLogo"></i>
-                <div class="skillname">JavaScript</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-git-plain skillLogo"></i>
-                <div class="skillname">Git</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-mongodb-plain skillLogo"></i>
-                <div class="skillname">Mongo</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-androidstudio-plain skillLogo"></i>
-                <div class="skillname">Android Studio</div>
-            </div>
-            <div class="individual">
-                <img src="/images/adobe-lightroom.png" class = "skillLogos" alt="">
-                <div class="skillname2">Lightroom</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-arduino-plain skillLogo"></i>
-                <div class="skillname">Arduino</div>
-            </div>
-
-            
-            <div class="individual">
-                <i class="devicon-photoshop-plain skillLogo"></i>
-                <div class="skillname">Photoshop</div>
-            </div>
-
-            <div class="individual">
-                <i class="devicon-linux-plain skillLogo"></i>
-                <div class="skillname">Linux</div>
-            </div>
-            
-            </div>
-        </div>
-
-
+    <div class="heading">Skills</div>
+    <hr>
+    <div class="skills">
+        <div class="skill"><strong>Languages:</strong> Python, Java, JavaScript, TypeScript, C, C++, Swift, SQL, HTML, CSS</div>
+        <div class="skill"><strong>Frameworks:</strong> ReactJS, Node.js, Next.js, Express.js, Git, MongoDB, TailwindCSS, MySQL, PostgreSQL, Selenium, Postman, Socket.io, Linux</div>
     </div>
-    <div id = "hobbies"></div>
-    <div class="heading">
-        <div class="hobbyicon">
-            <svg id = "hobbyicon" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Game Controller</title><path d="M467.51 248.83c-18.4-83.18-45.69-136.24-89.43-149.17A91.5 91.5 0 00352 96c-26.89 0-48.11 16-96 16s-69.15-16-96-16a99.09 99.09 0 00-27.2 3.66C89 112.59 61.94 165.7 43.33 248.83c-19 84.91-15.56 152 21.58 164.88 26 9 49.25-9.61 71.27-37 25-31.2 55.79-40.8 119.82-40.8s93.62 9.6 118.66 40.8c22 27.41 46.11 45.79 71.42 37.16 41.02-14.01 40.44-79.13 21.43-165.04z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="12"/><circle cx="292" cy="224" r="20" fill = "white"/><path d="M336 288a20 20 0 1120-19.95A20 20 0 01336 288z" fill = "white"/><circle cx="336" cy="180" r="20" fill = "white"/><circle fill = "white" cx="380" cy="224" r="20"/><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M160 176v96M208 224h-96"/></svg>
-        </div>
-        <div  id = "worktitle">
-            Hobbies
-            <div class="horizontalbar"></div>
-        </div>
-    </div>
-    <div class="hobbies fade-in">
-        <div class="hobbysection">
-            <div class="hobby" id="juggling">
-                <img src="images/juggler.png" width="100%" height="auto">
-                <div class="coverHobbies"></div>
-                <div class="hobbyText">Juggling</div>
-                <!--<div class="learnMore">
-                    <button class = "learnButton">Learn More</button>
-		</div>-->
-            </div>
-            <div class="hobby" id="desmos">
-                <img src="images/galen.png" width="100%">
-                <div class="coverHobbies"></div>
-                <div class="hobbyText">Desmos Art</div>
-                <!--<div class="learnMore">
-                    <button class = "learnButton">Learn More</button>
-		</div>-->
-            </div>
-            <div class="hobby" id = "photographing">
-                <img src="images/photographer.png" alt="" width="100%">
-                <div class="coverHobbies"></div>
-                <div class="hobbyText">Photography</div>
-                <!--<div class="learnMore">
-                    <button class = "learnButton">Learn More</button>
-		</div>-->
-            </div>
 
-        </div>
-
-
-
-    </div>
-    <div id = "cover"></div>
     <footer id = "footer">
         <div class="contactlinks">
             <a href="mailto:anahuja@ucdavis.edu">
-                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular email fa-envelope"></i>
             </a>
             <a href="https://www.linkedin.com/in/anish-ahuja-8b48a123a/">
                 <i class="fa-brands fa-linkedin-in"></i>            
@@ -393,113 +181,12 @@
             <a href="https://www.instagram.com/anishahuja_">
                 <i class="fa-brands fa-instagram"></i>
             </a>
+            <a href="https://drive.google.com/file/d/1PqbGnINzy-ebnQ8zOFN9HxL6YX_ZxPHn/view?usp=sharing">
+                <i class="documentIcon fa-regular fa-file"></i>
+            </a>
         </div>
     </footer>
 
-<script>
-    const options = {
- root: null,
- threshold: 0,
- rootMargin: "0px"
-};
-const observer = new IntersectionObserver(entries => {
-  // Loop over the entries
-  entries.forEach(entry => {
-    // If the element is visible
-    if (entry.isIntersecting) {
-      // Add the animation class
-      entry.target.classList.add('path-animation');
-    //   alert("cheese");
-      return;
-
-    }
-
-  });
-}, options);
-
-observer.observe(document.querySelector('.rpsicon'));
-
-</script>
-<script>
-    const observer2 = new IntersectionObserver(entries => {
-      // Loop over the entries
-      entries.forEach(entry => {
-        // If the element is visible
-        if (entry.isIntersecting) {
-          // Add the animation class
-          entry.target.classList.add('school-animation');
-          return;
-        //   alert("cheese");
-    
-        }
-    
-      });
-    });
-    
-    observer2.observe(document.querySelector('.schoolicon'));
-    
-</script>
-<script>
-    const observer3 = new IntersectionObserver(entries => {
-      // Loop over the entries
-      entries.forEach(entry => {
-        // If the element is visible
-        if (entry.isIntersecting) {
-            // alert ("cat")
-          // Add the animation class
-          entry.target.classList.add('work-animation');
-          return;
-        //   alert("cheese");
-    
-        }
-    
-      });
-    });
-    
-    observer3.observe(document.querySelector('.workicon'));
-    observer3.observe(document.querySelector('.workicon2'));
-
-    
-</script>
-<script>
-    const observer4 = new IntersectionObserver(entries => {
-      // Loop over the entries
-      entries.forEach(entry => {
-        // If the element is visible
-        if (entry.isIntersecting) {
-          // Add the animation class
-          entry.target.classList.add('skills-animation');
-          return;
-        //   alert("cheese");
-    
-        }
-    
-      });
-    });
-    
-    observer3.observe(document.querySelector('.skillsicon'));
-    
-</script>
-
-<script>
-    const observer5 = new IntersectionObserver(entries => {
-      // Loop over the entries
-      entries.forEach(entry => {
-        // If the element is visible
-        if (entry.isIntersecting) {
-          // Add the animation class
-          entry.target.classList.add('hobby-animation');
-          return;
-        //   alert("cheese");
-    
-        }
-    
-      });
-    });
-    
-    observer3.observe(document.querySelector('.hobbyicon'));
-    
-</script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script src="https://kit.fontawesome.com/ec272fbb76.js" crossorigin="anonymous"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
