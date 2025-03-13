@@ -1,7 +1,8 @@
 
 body{
-    background-color: #ebddd7!important;
+    background-color: #d6dbd5!important;
     font-family: "Merriweather", serif !important;
+    color: #496348 !important;
 }
 .logo{
     width: 140px;
@@ -23,7 +24,7 @@ hr{
 }
 .companyName{
     font-size: 16pt;
-    color: #557e67;
+    color: #5b4e45;
     font-weight: 600;
 }
 .workExperience{
@@ -43,7 +44,7 @@ hr{
 .workDescription{
     margin-left: -12px;
     font-size: 11pt;
-    color: #162521;
+    color: #496348;
 
 }
 .work{
@@ -60,7 +61,7 @@ hr{
 }
 .schoolName{
     font-size: 15pt;
-    color: #557e67 !important;
+    color: #5b4e45 !important;
     font-weight:600;
     /* text-decoration: underline; */
 }
@@ -93,13 +94,14 @@ hr{
 .projectName{
     font-size: 15pt;
     a{
-        color: #557e67 !important;
+        color: #5b4e45 !important;
     }
     font-weight: 600;
     /* text-decoration: underline; */
 }
 .projectDescription{
     font-size: 11.5pt;
+    color: #496348;
 }
 .projectTech{
     font-size: 11pt;
@@ -140,12 +142,12 @@ hr{
     font-size: 20pt;
     margin-bottom: -5px;
     font-weight: 900;
-    color: #466653;
+    color: #16512e;
     margin-top: 3%
 }
 .MainName{
     font-size: 22pt;
-    color: #466653;
+    color: #16512e;
     font-weight: 900;
     /* text-decoration: underline; */
 }
@@ -348,29 +350,29 @@ hr{
 
 
 #footer{
-    background-color: #e3cfc6!important;
+    background-color: #c7cfc6!important;
     text-align: center;
-    color: #466653 !important;
+    color: #16512e !important;
     margin-top: 20px;
 }
 .contactIcon{
     height: 40px;
-    color: #466653;
+    color: #16512e;
     margin: auto 8px;
     margin-top: 15px;
 }
 .fa-brands{
-    color: #466653;
+    color: #16512e;
     font-size: 20pt;
     margin: 1% 10px;
 }
 .email{
-    color: #466653;
+    color: #16512e;
     font-size: 20pt;
     margin: 1% 10px;
 }
 .documentIcon{
-    color: #466653;
+    color: #16512e;
     font-size: 19pt;
     margin: 1% 10px;
 }
