@@ -4,6 +4,11 @@ body{
     font-family: "Merriweather", serif !important;
     color: #496348 !important;
 }
+a{
+    color: #16512e !important;
+    font-weight: 500;
+
+}
 .logo{
     width: 140px;
     height: auto;
@@ -347,6 +352,7 @@ hr{
 
 
 }
+
 
 
 #footer{
