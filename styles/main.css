@@ -130,8 +130,8 @@ hr{
     /* width: 100%; */
 }
 .portrait{
-    width: 200px !important;
-    height: auto;
+    width: 175px !important;
+    height: 175px;
     /* height: 40%; */
     /* height: 200px; */
     /* object-fit: cover !important;    object-fit: cover; */
@@ -148,7 +148,7 @@ hr{
     margin-bottom: -5px;
     font-weight: 900;
     color: #16512e;
-    margin-top: 3%
+    margin-top: 1%
 }
 .MainName{
     font-size: 22pt;
