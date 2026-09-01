@@ -4,7 +4,7 @@ main:
     authors: Tiching Kao, <strong>Anish Ahuja</strong>, Caleb Stanford
     # conference_short: 
     # conference:
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    pdf: assets/files/USR-draft.pdf
     code: https://github.com/DavisPL/usr-solver
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_example_2.png
